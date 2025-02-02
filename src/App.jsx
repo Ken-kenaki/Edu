@@ -6,6 +6,8 @@ import TItle from './components/TItle/TItle'
 import About from './components/About/About'
 import { useState } from 'react'
 import { useEffect } from 'react'
+import Campus from './components/Campus/Campus'
+import Testimonials from './components/Testimonials/Testimonials'
 
 
 const App = () => {
@@ -27,12 +29,14 @@ const App = () => {
    <TItle 
    subtitle = "Our Progams"
    title = "What we Offer ?"
-
-
    />
 
       <Program />
       <About />
+
+      <Campus />
+
+      <Testimonials />
     </>
   )
 }
