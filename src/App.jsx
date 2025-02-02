@@ -8,6 +8,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import Campus from './components/Campus/Campus'
 import Testimonials from './components/Testimonials/Testimonials'
+import Contact from './components/Contact/Contact'
 
 
 const App = () => {
@@ -37,6 +38,8 @@ const App = () => {
       <Campus />
 
       <Testimonials />
+
+      <Contact />
     </>
   )
 }
